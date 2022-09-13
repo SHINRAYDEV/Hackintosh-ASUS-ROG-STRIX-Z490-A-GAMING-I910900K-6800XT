@@ -1,5 +1,6 @@
 # Hackintosh-ASUS-ROG-STRIX-Z490-A-GAMING-I910900K-6800XT
 Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
+![ASUS-ROG-STRIX-Z490-A-GAMING](https://rog.asus.com/websites/global/products/enapehclupql13s5/img/z490/kv/hero.png  “ASUS-ROG-STRIX-Z490-A-GAMING（吹雪）”)
 ---
 ## Software
 
