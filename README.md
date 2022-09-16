@@ -7,7 +7,7 @@ Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 
 华硕 Z490-A 吹雪 黑苹果 Opencore EFI
 
-作为主力机使用，将持续更新，可以Star一下～
+作为主力机使用，将持续更新，可以🌟Star一下～
 
 ---
 ## 软件版本
