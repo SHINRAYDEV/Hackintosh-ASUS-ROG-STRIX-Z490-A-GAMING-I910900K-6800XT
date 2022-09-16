@@ -25,18 +25,18 @@ BIOS.Version:2601
 |    组件    |                  名称                   |
 |:----------:|:---------------------------------------:|
 |    主板    |      ASUS ROG STRIX Z490-A GAMING       |
-|    CPU     |                I9 10900K                |
+| 中央处理器 |                I9 10900K                |
 |    显卡    |   Intel UHD630 / AMD Radeon RX 6800XT   |
 |    内存    | G.SKILL Trident Z Royal DDR4 4000 16Gx4 |
 |    硬盘    |        Samsung 970 EVO Plus NVMe        |
 | 蓝牙/WI-FI |          Fevi T919 BCM94360CD           |
 
-### ASUS ROG STRIX Z490-A GAMING
+### 板载配置详情
 
-|          |                                   |
-|:--------:|:---------------------------------:|
-| Ethernet | Intel I225-V 2.5 Gigabit Ethernet |
-|  Audio   |         Realtek ALCS1220A         |
+| 组件 |               名称                |
+|:----:|:---------------------------------:|
+| 网卡 | Intel I225-V 2.5 Gigabit Ethernet |
+| 声卡 |         Realtek ALCS1220A         |
 
 ---
 
