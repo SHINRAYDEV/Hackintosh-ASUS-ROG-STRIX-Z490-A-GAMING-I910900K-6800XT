@@ -16,7 +16,7 @@ Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 
 Bootloader: [OpenCore-0.8.4-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.4)
 
-OS: [macOS Monterey 12.6](https://www.apple.com/macos/monterey/)(iMac20,2)
+OS: [macOS Monterey 12.6](https://www.apple.com/macos/monterey/) (iMac20,2)
 
 BIOS.Version: [2601](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z490-a-gaming-model/helpdesk_bios/)
 
