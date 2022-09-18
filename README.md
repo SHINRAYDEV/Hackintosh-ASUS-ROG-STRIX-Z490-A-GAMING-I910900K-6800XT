@@ -42,13 +42,56 @@ BIOS.Version: [2601](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z4
 
 ---
 
-## What's working
-- [x] Intel UHD630 (iGPU)
-- [x] AMD Radeon RX 6800XT (dGPU)
-- [x] Audio Realtek ALCS1220A
-- [x] Intel I225-V 2.5 Gigabit Ethernet
-- [x] Wi-Fi/BT (Fenvi T919 BCM94360CS)
-- [x] USB
-- [x] Restart/Shutdown
-- [x] Sleep/Wake
-- [x] Power Management (Native support)
+## 可正常工作
+- [x] 显卡 (Intel UHD630 核显 + AMD Radeon RX 6800XT 独显) / 硬解 4K (HEVC + H.264)
+- [x] Audio Realtek ALCS1220A 声卡 (板载)
+- [x] Intel I225-V 2.5 Gigabit Ethernet 网卡 (板载)
+- [x] Wi-Fi/BT (Fenvi T919 BCM94360CS PCIEX1)
+- [x] USB 定制 (UTBMap + USBToolBox)
+- [x] 重启/关机
+- [x] 睡眠/唤醒
+- [x] 电源管理 (原生)
+
+---
+
+## EFI详情
+
+### GPU
+#### AMD Radeon RX 6800XT
+
+原生防黑屏启动参数
+
+```
+agdpmod=pikera
+```
+
+设备属性仿冒设置
+
+```
+    <key>DeviceProperties</key>
+    <dict>
+        <key>Add</key>
+        <dict>
+            <key>这里写你显卡的实际的设备路径(Hackintool PCIE里面可以看到)</key>
+            <dict>
+                <key>@0,name</key>
+                <string>ATY,Belknap</string>
+                <key>@1,name</key>
+                <string>ATY,Belknap</string>
+                <key>@2,name</key>
+                <string>ATY,Belknap</string>
+                <key>@3,name</key>
+                <string>ATY,Belknap</string>
+                <key>device_type</key>
+                <string>ATY,BelknapParent</string>
+            </dict>
+        </dict>
+        <key>Delete</key>
+        <dict/>
+    </dict>
+
+```
+
+温度传感器介入
+
+使用 [RadeonSensor](https://github.com/aluveitie/RadeonSensor)
