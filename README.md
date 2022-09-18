@@ -59,13 +59,13 @@ BIOS.Version: [2601](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z4
 ### GPU
 #### AMD Radeon RX 6800XT
 
-原生防黑屏启动参数
+* 原生防黑屏启动参数
 
 ```
 agdpmod=pikera
 ```
 
-设备属性仿冒设置
+* 设备属性仿冒设置
 
 ```
     <key>DeviceProperties</key>
@@ -91,6 +91,6 @@ agdpmod=pikera
     </dict>
 ```
 
-温度传感器介入
+* 温度传感器介入
 
 使用 [RadeonSensor](https://github.com/aluveitie/RadeonSensor)
