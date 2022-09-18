@@ -89,7 +89,6 @@ agdpmod=pikera
         <key>Delete</key>
         <dict/>
     </dict>
-
 ```
 
 温度传感器介入
