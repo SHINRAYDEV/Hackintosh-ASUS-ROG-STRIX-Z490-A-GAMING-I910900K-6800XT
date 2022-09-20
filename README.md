@@ -57,7 +57,7 @@ BIOS.Version: [2601](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z4
 ## EFI详情
 
 ### GPU
-#### AMD Radeon RX 6800XT
+#### AMD Radeon RX 6800XT (dGPU)
 
 * 原生防黑屏启动参数
 
@@ -94,3 +94,15 @@ agdpmod=pikera
 * 温度传感器介入
 
 使用 [RadeonSensor](https://github.com/aluveitie/RadeonSensor)
+
+#### I9 10900K Intel UHD630 (iGPU)
+
+采用白苹果iMac默认调度策略，核显仅用于计算，不驱动显示
+
+|         key         |     value      | dataType |
+|:-------------------:|:--------------:|:--------:|
+| AAPL,ig-platform-id | **`0300C89B`** |   DATA   |
+|      device-id      | **`9B3E0000`** |   DATA   |
+
+BIOS设置: DVMT Pre-Allocated: 64MB
+
