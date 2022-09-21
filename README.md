@@ -111,3 +111,20 @@ BIOS设置: DVMT Pre-Allocated: 64MB
 #### Audio Realtek ALCS1220A
 
 采用 [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases)
+
+启动参数
+
+```
+alcid=layout-id // 我的layout-id为7
+```
+
+### 网卡
+
+#### Intel I225-V 2.5 Gigabit Ethernet
+
+|     key     |               value               | dataType |
+|:-----------:|:---------------------------------:|:--------:|
+|  device-id  |          **`F2150000`**           |   DATA   |
+|  vendor-id  |          **`87800000`**           |   DATA   |
+| device_type |        Ethernet Controller        |   字符   |
+|    model    | Intel I225-V 2.5 Gigabit Ethernet |   字符   |
