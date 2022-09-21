@@ -106,3 +106,8 @@ agdpmod=pikera
 
 BIOS设置: DVMT Pre-Allocated: 64MB
 
+### 声卡
+
+#### Audio Realtek ALCS1220A
+
+采用 [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases)
