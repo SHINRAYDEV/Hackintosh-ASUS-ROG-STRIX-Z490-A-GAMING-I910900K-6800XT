@@ -97,22 +97,24 @@ agdpmod=pikera
 
 #### I9 10900K Intel UHD630 (iGPU)
 
-采用白苹果iMac默认调度策略，核显仅用于计算，不驱动显示
+* 采用白苹果iMac默认调度策略，核显仅用于计算，不驱动显示
+  
+DeviceProperties
 
 |         key         |     value      | dataType |
 |:-------------------:|:--------------:|:--------:|
 | AAPL,ig-platform-id | **`0300C89B`** |   DATA   |
 |      device-id      | **`9B3E0000`** |   DATA   |
 
-BIOS设置: DVMT Pre-Allocated: 64MB
+* BIOS设置: DVMT Pre-Allocated: 64MB
 
 ### 声卡
 
 #### Audio Realtek ALCS1220A
 
-采用 [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases)
+* 采用 [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases)
 
-启动参数
+* 启动参数
 
 ```
 alcid=layout-id // 我的layout-id为7
@@ -122,9 +124,17 @@ alcid=layout-id // 我的layout-id为7
 
 #### Intel I225-V 2.5 Gigabit Ethernet
 
+* DeviceProperties
+
 |     key     |               value               | dataType |
 |:-----------:|:---------------------------------:|:--------:|
 |  device-id  |          **`F2150000`**           |   DATA   |
 |  vendor-id  |          **`87800000`**           |   DATA   |
 | device_type |        Ethernet Controller        |   字符   |
 |    model    | Intel I225-V 2.5 Gigabit Ethernet |   字符   |
+
+* 启动参数
+
+```
+e1000=0
+```
