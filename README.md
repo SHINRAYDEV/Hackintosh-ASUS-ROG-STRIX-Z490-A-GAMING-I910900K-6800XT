@@ -1,6 +1,6 @@
 # Hackintosh-ASUS-ROG-STRIX-Z490-A-GAMING-I910900K-6800XT
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.5-1ac3d4)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-13.0-c62eb8)](https://www.apple.com.cn/macos/monterey/)
+[![macOS](https://img.shields.io/badge/macOS-13.0-ffb84a)](https://www.apple.com/macos/ventura/)
 
 Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 
@@ -13,7 +13,7 @@ Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 
 <img src="https://rog.asus.com/websites/global/products/enapehclupql13s5/img/z490/kv/hero.png" align="right" width="360" />
 
-Bootloader: [OpenCore-0.8.4-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.4)
+Bootloader: [OpenCore-0.8.5-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.5)
 
 OS: [macOS Monterey 13.0](https://www.apple.com/macos/ventura/) (iMac20,2)
 
@@ -116,7 +116,7 @@ DeviceProperties
 * 启动参数
 
 ```
-alcid=layout-id // 我的layout-id为7
+alcid=layout-id // 我的layout-id为2
 ```
 
 ### 网卡
