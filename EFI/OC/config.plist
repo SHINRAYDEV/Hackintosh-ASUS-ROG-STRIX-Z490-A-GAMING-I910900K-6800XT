@@ -216,13 +216,6 @@
                     <key>vendor-id</key>
                     <data>h4AAAA==</data>
                 </dict>
-                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
-                <dict>
-                    <key>layout-id</key>
-                    <data></data>
-                    <key>model</key>
-                    <string>ASUS SupremeFX S1220A</string>
-                </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
@@ -1022,7 +1015,7 @@
                     <key>Flavour</key>
                     <string>OpenShell:UEFIShell:Shell</string>
                     <key>FullNvramAccess</key>
-                    <true/>
+                    <false/>
                     <key>Name</key>
                     <string>UEFI Shell</string>
                     <key>Path</key>
@@ -1044,7 +1037,7 @@
                     <key>Flavour</key>
                     <string>MemTest</string>
                     <key>FullNvramAccess</key>
-                    <true/>
+                    <false/>
                     <key>Name</key>
                     <string>memtest86</string>
                     <key>Path</key>
@@ -1066,7 +1059,7 @@
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
-                    <true/>
+                    <false/>
                     <key>Name</key>
                     <string>Shutdown</string>
                     <key>Path</key>
@@ -1101,7 +1094,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 agdpmod=pikera e1000=0</string>
+                    <string>keepsyms=1 agdpmod=pikera e1000=0 alcid=2</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
