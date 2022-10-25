@@ -1,7 +1,6 @@
 # Hackintosh-ASUS-ROG-STRIX-Z490-A-GAMING-I910900K-6800XT
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.4-1ac3d4)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-12.6-c62eb8)](https://www.apple.com.cn/macos/monterey/)
-[![macOS](https://img.shields.io/badge/macOS-13%20beta-ffb84a)](https://www.apple.com.cn/macos/macos-ventura-preview/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.5-1ac3d4)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
+[![macOS](https://img.shields.io/badge/macOS-13.0-c62eb8)](https://www.apple.com.cn/macos/monterey/)
 
 Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 
@@ -16,7 +15,7 @@ Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 
 Bootloader: [OpenCore-0.8.4-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.4)
 
-OS: [macOS Monterey 12.6](https://www.apple.com/macos/monterey/) (iMac20,2)
+OS: [macOS Monterey 13.0](https://www.apple.com/macos/ventura/) (iMac20,2)
 
 BIOS.Version: [2601](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z490-a-gaming-model/helpdesk_bios/)
 
