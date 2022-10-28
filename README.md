@@ -123,14 +123,7 @@ alcid=layout-id // 我的layout-id为2
 
 #### Intel I225-V 2.5 Gigabit Ethernet
 
-* DeviceProperties
-
-|     key     |               value               | dataType |
-|:-----------:|:---------------------------------:|:--------:|
-|  device-id  |          **`F2150000`**           |   DATA   |
-|  vendor-id  |          **`87800000`**           |   DATA   |
-| device_type |        Ethernet Controller        |   字符   |
-|    model    | Intel I225-V 2.5 Gigabit Ethernet |   字符   |
+最新Ventura 13.0更改为采用AppleIntelI210Ethernet.kext驱动I225-V网卡，删除DeviceProperties相关参数
 
 * 启动参数
 
