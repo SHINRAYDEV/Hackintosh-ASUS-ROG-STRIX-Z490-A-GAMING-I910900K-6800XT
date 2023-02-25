@@ -13,9 +13,9 @@ Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 
 <img src="https://rog.asus.com/websites/global/products/enapehclupql13s5/img/z490/kv/hero.png" align="right" width="360" />
 
-Bootloader: [OpenCore-0.8.7-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.7)
+Bootloader: [OpenCore-0.8.9-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.9)
 
-OS: [macOS Ventura 13.1](https://www.apple.com/macos/ventura/) (iMac20,2)
+OS: [macOS Ventura 13.2.1](https://www.apple.com/macos/ventura/) (iMac20,2)
 
 BIOS.Version: [2601](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z490-a-gaming-model/helpdesk_bios/)
 
