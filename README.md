@@ -1,6 +1,6 @@
 # Hackintosh-ASUS-ROG-STRIX-Z490-A-GAMING-I910900K-6800XT
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.9.5-1ac3d4)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-13.3.1-ffb84a)](https://www.apple.com/macos/ventura/)
+[![macOS](https://img.shields.io/badge/macOS-14.1-ffb84a)](https://www.apple.com/macos/ventura/)
 
 Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 
