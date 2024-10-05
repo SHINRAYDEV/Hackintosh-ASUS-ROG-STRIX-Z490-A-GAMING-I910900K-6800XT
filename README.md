@@ -1,6 +1,6 @@
 # Hackintosh-ASUS-ROG-STRIX-Z490-A-GAMING-I910900K-6800XT
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.5-1ac3d4)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-14.1-ffb84a)](https://www.apple.com/macos/ventura/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.9-1ac3d4)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
+[![macOS](https://img.shields.io/badge/macOS-14.4-ffb84a)](https://www.apple.com/macos/ventura/)
 
 Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 
@@ -13,11 +13,11 @@ Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 
 <img src="https://rog.asus.com/websites/global/products/enapehclupql13s5/img/z490/kv/hero.png" align="right" width="360" />
 
-Bootloader: [OpenCore-0.9.5-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.5)
+Bootloader: [OpenCore-0.9.9-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.9)
 
-OS: [macOS Sonoma 14.1](https://www.apple.com/macos/sonoma/) (iMac20,2)
+OS: [macOS Sonoma 14.4](https://www.apple.com/macos/sonoma/) (iMac20,2)
 
-BIOS.Version: [2601](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z490-a-gaming-model/helpdesk_bios/)
+BIOS.Version: [2801](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z490-a-gaming-model/helpdesk_bios/)
 
 ---
 
@@ -55,7 +55,13 @@ BIOS.Version: [2601](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z4
 
 ## EFI详情
 
-已注入最新 Sonoma 博通网卡 [OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) 替换框架参数，自行下载注入即可
+本人个人所需更新BIOS开启 ResizeAppleGpuBars，如不需要可自行关闭
+```
+<key>ResizeAppleGpuBars</key>
+<integer>-1</integer>
+```
+
+已更新注入最新 Sonoma 博通网卡 [OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) 替换框架参数，自行下载注入即可
 
 ### GPU
 #### AMD Radeon RX 6800XT (dGPU)
