@@ -1,6 +1,6 @@
 # Hackintosh-ASUS-ROG-STRIX-Z490-A-GAMING-I910900K-6800XT
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.9-1ac3d4)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-14.4-ffb84a)](https://www.apple.com/macos/ventura/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.2-1ac3d4)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
+[![macOS](https://img.shields.io/badge/macOS-15.0.1-4185ce)](https://www.apple.com/macos/macos-sequoia/)
 
 Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 
@@ -13,9 +13,9 @@ Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 
 <img src="https://rog.asus.com/websites/global/products/enapehclupql13s5/img/z490/kv/hero.png" align="right" width="360" />
 
-Bootloader: [OpenCore-0.9.9-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.9)
+Bootloader: [OpenCore-1.0.2-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.2)
 
-OS: [macOS Sonoma 14.4](https://www.apple.com/macos/sonoma/) (iMac20,2)
+OS: [macOS Sequoia 15.0.1](https://www.apple.com/macos/macos-sequoia/) (iMac20,2)
 
 BIOS.Version: [2801](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z490-a-gaming-model/helpdesk_bios/)
 
@@ -131,7 +131,9 @@ alcid=layout-id // 我的layout-id为2
 
 #### Intel I225-V 2.5 Gigabit Ethernet
 
-最新Ventura 13.0更改为采用AppleIntelI210Ethernet.kext驱动I225-V网卡，删除DeviceProperties相关参数
+~~最新Ventura 13.0更改为采用AppleIntelI210Ethernet.kext驱动I225-V网卡，删除DeviceProperties相关参数~~
+
+最新Sequoia 15.0.1更改为采用AppleIGC.kext驱动I225-V网卡
 
 * 启动参数
 
