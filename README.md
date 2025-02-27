@@ -11,7 +11,7 @@ Hackintosh EFI For ASUS-ROG-STRIX-Z490-A-GAMING(吹雪)
 ---
 ## 软件版本
 
-<img src="https://rog.asus.com/websites/global/products/enapehclupql13s5/img/z490/kv/hero.png" align="right" width="360" />
+<img src="https://dlcdnimgs.asus.com/websites/global/products/enapehclupql13s5/img/z490/kv/hero.png" align="right" width="360" />
 
 Bootloader: [OpenCore-1.0.2-RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.2)
 
